@@ -1,0 +1,11456 @@
+[
+ {
+  "name": "deployment-0000",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0001",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0002",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0003",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0004",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0005",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0006",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0007",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0008",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0009",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0010",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0011",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0012",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0013",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0014",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0015",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0016",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0017",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0018",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0019",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0020",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0021",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0022",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0023",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0024",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0025",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0026",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0027",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0028",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0029",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0030",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0031",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0032",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0033",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0034",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0035",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0036",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0037",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0038",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0039",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0040",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0041",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0042",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0043",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0044",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0045",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0046",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0047",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0048",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0049",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0050",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0051",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0052",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0053",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0054",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0055",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0056",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0057",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0058",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0059",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0060",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0061",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0062",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0063",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0064",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0065",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0066",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0067",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0068",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0069",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0070",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0071",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0072",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0073",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0074",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0075",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0076",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0077",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0078",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0079",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0080",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0081",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0082",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0083",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0084",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0085",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0086",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0087",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0088",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0089",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0090",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0091",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0092",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0093",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0094",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0095",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0096",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0097",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0098",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0099",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0100",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0101",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0102",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0103",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0104",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0105",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0106",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0107",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0108",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0109",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0110",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0111",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0112",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0113",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0114",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0115",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0116",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0117",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0118",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0119",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0120",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0121",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0122",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0123",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0124",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0125",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0126",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0127",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0128",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0129",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0130",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0131",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0132",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0133",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0134",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "bucket-0135",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0136",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0137",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0138",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0139",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0140",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0141",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0142",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0143",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0144",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0145",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "bucket-0146",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0147",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0148",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0149",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0150",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0151",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0152",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0153",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0154",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0155",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "volume-0156",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0157",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0158",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0159",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0160",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0161",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0162",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0163",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "bucket-0164",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0165",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0166",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0167",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0168",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0169",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0170",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0171",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0172",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0173",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0174",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0175",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0176",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0177",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0178",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0179",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0180",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0181",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0182",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0183",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0184",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0185",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0186",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0187",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0188",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0189",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0190",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0191",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0192",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0193",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0194",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0195",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0196",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0197",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0198",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0199",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0200",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0201",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0202",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0203",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0204",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0205",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0206",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0207",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0208",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0209",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0210",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "volume-0211",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0212",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0213",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "volume-0214",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0215",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0216",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0217",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0218",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0219",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0220",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "volume-0221",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "bucket-0222",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0223",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0224",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0225",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0226",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0227",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0228",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0229",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0230",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0231",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0232",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0233",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0234",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "bucket-0235",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0236",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0237",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0238",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "volume-0239",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0240",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0241",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0242",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0243",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0244",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0245",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0246",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0247",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0248",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0249",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0250",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0251",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0252",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0253",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0254",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0255",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0256",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0257",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0258",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0259",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0260",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0261",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0262",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0263",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0264",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0265",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0266",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0267",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0268",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0269",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0270",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0271",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0272",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0273",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0274",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0275",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0276",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0277",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "bucket-0278",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0279",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0280",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0281",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0282",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0283",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0284",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "bucket-0285",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0286",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0287",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0288",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0289",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0290",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0291",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0292",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0293",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0294",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0295",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0296",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0297",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0298",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0299",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0300",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0301",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0302",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0303",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0304",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0305",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0306",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0307",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0308",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0309",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0310",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0311",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0312",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0313",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0314",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0315",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0316",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0317",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0318",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "volume-0319",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0320",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0321",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0322",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0323",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0324",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0325",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0326",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "bucket-0327",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0328",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0329",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0330",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0331",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0332",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0333",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0334",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0335",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0336",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0337",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0338",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0339",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0340",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0341",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0342",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0343",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0344",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0345",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0346",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0347",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0348",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0349",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0350",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0351",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0352",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0353",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0354",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0355",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0356",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0357",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0358",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0359",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0360",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0361",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0362",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0363",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0364",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0365",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0366",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0367",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0368",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0369",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0370",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0371",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0372",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0373",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0374",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0375",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0376",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0377",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0378",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0379",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0380",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0381",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0382",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0383",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0384",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0385",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0386",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0387",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0388",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0389",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0390",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0391",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0392",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0393",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0394",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0395",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0396",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0397",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0398",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0399",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0400",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0401",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0402",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "bucket-0403",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0404",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0405",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0406",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0407",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0408",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0409",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0410",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0411",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0412",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0413",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0414",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0415",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0416",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0417",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0418",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0419",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0420",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0421",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0422",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0423",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0424",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0425",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0426",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0427",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0428",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0429",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0430",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0431",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0432",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "bucket-0433",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0434",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0435",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0436",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0437",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0438",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0439",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0440",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0441",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0442",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0443",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0444",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0445",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0446",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0447",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0448",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0449",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0450",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0451",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0452",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0453",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0454",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0455",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0456",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0457",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0458",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0459",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0460",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0461",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0462",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0463",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0464",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0465",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0466",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0467",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "volume-0468",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0469",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0470",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0471",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0472",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0473",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0474",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0475",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0476",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0477",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0478",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0479",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0480",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "bucket-0481",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0482",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0483",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0484",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0485",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0486",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0487",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0488",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0489",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0490",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0491",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0492",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0493",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0494",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0495",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0496",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0497",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0498",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "bucket-0499",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0500",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0501",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0502",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0503",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0504",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0505",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0506",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0507",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0508",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0509",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0510",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0511",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0512",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0513",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0514",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0515",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0516",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0517",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0518",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "bucket-0519",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0520",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0521",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0522",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0523",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0524",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0525",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0526",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0527",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0528",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0529",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0530",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0531",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0532",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0533",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0534",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0535",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0536",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0537",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0538",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0539",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0540",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0541",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0542",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0543",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0544",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0545",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "docker.io/thirdparty/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0546",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0547",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0548",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0549",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0550",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0551",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0552",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0553",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0554",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0555",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0556",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0557",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0558",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0559",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0560",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0561",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0562",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0563",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0564",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0565",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0566",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0567",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0568",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0569",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0570",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0571",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0572",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0573",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0574",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0575",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0576",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "database-0577",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0578",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0579",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0580",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0581",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0582",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0583",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0584",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0585",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0586",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0587",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "bucket-0588",
+  "kind": "Bucket",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "volume-0589",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0590",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "docker.io/thirdparty/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0591",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "database-0592",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0593",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "volume-0594",
+  "kind": "Volume",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": false
+  }
+ },
+ {
+  "name": "deployment-0595",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "database-0596",
+  "kind": "Database",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "encrypted": true
+  }
+ },
+ {
+  "name": "deployment-0597",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": true,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    },
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0598",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x"
+   }
+  },
+  "spec": {
+   "exposure": "internal",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:1.4.2",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "name": "deployment-0599",
+  "kind": "Deployment",
+  "metadata": {
+   "tags": {
+    "owner": "team-x",
+    "cost-center": "cc-1"
+   }
+  },
+  "spec": {
+   "exposure": "public",
+   "containers": [
+    {
+     "image": "registry.internal.example/svc:latest",
+     "privileged": false,
+     "limits": {
+      "cpu": "500m",
+      "memory": "512Mi"
+     }
+    }
+   ]
+  }
+ }
+]

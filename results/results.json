@@ -1,0 +1,171 @@
+{
+ "static": {
+  "high_total": 26,
+  "medium_total": 101,
+  "low_total": 276,
+  "high_recall": 26,
+  "medium_covered": 101,
+  "low_interrupted": 276,
+  "low_blocked": 276,
+  "attention_items": 403,
+  "hard_blocks": 403,
+  "high_missed_entirely": 0
+ },
+ "prod_only": {
+  "high_total": 26,
+  "medium_total": 101,
+  "low_total": 276,
+  "high_recall": 22,
+  "medium_covered": 44,
+  "low_interrupted": 76,
+  "low_blocked": 76,
+  "attention_items": 142,
+  "hard_blocks": 142,
+  "high_missed_entirely": 4
+ },
+ "severity_tiered": {
+  "high_total": 26,
+  "medium_total": 101,
+  "low_total": 276,
+  "high_recall": 26,
+  "medium_covered": 101,
+  "low_interrupted": 30,
+  "low_blocked": 30,
+  "attention_items": 224,
+  "hard_blocks": 123,
+  "high_missed_entirely": 0
+ },
+ "context_aware": {
+  "high_total": 26,
+  "medium_total": 101,
+  "low_total": 276,
+  "high_recall": 26,
+  "medium_covered": 101,
+  "low_interrupted": 53,
+  "low_blocked": 2,
+  "attention_items": 285,
+  "hard_blocks": 34,
+  "high_missed_entirely": 0
+ },
+ "context_aware_confusion": {
+  "High": {
+   "advisory": 0,
+   "warn": 0,
+   "approve": 2,
+   "block": 24
+  },
+  "Medium": {
+   "advisory": 0,
+   "warn": 36,
+   "approve": 57,
+   "block": 8
+  },
+  "Low": {
+   "advisory": 118,
+   "warn": 105,
+   "approve": 51,
+   "block": 2
+  }
+ },
+ "by_env_findings": {
+  "dev": 156,
+  "staging": 105,
+  "prod": 142
+ },
+ "incident": {
+  "static_blocked": 50,
+  "context_steady": {
+   "deferrable_40": {
+    "advisory": 0,
+    "warn": 0,
+    "approve": 0,
+    "block": 40
+   },
+   "privileged_10": {
+    "advisory": 0,
+    "warn": 0,
+    "approve": 0,
+    "block": 10
+   }
+  },
+  "context_incident": {
+   "deferrable_40": {
+    "advisory": 0,
+    "warn": 0,
+    "approve": 40,
+    "block": 0
+   },
+   "privileged_10": {
+    "advisory": 0,
+    "warn": 0,
+    "approve": 0,
+    "block": 10
+   }
+  }
+ },
+ "threat": {
+  "normal": {
+   "advisory": 118,
+   "warn": 141,
+   "approve": 110,
+   "block": 34
+  },
+  "elevated": {
+   "advisory": 75,
+   "warn": 145,
+   "approve": 118,
+   "block": 65
+  },
+  "critical": {
+   "advisory": 31,
+   "warn": 126,
+   "approve": 135,
+   "block": 111
+  }
+ },
+ "missing_context": {
+  "resources_dropped": 90,
+  "findings_affected": 63,
+  "high_total": 26,
+  "medium_total": 101,
+  "low_total": 276,
+  "high_recall": 26,
+  "medium_covered": 101,
+  "low_interrupted": 86,
+  "low_blocked": 41,
+  "attention_items": 304,
+  "hard_blocks": 89,
+  "high_missed_entirely": 0
+ },
+ "sensitivity": {
+  "high_recall": {
+   "min": 1.0,
+   "p5": 1.0,
+   "median": 1.0,
+   "max": 1.0
+  },
+  "low_interrupt_rate": {
+   "min": 0.03985507246376811,
+   "median": 0.1829710144927536,
+   "p95": 0.2210144927536232,
+   "max": 0.2644927536231884
+  },
+  "attention_items": {
+   "min": 242,
+   "median": 280.0,
+   "max": 326
+  }
+ },
+ "latency_ms": {
+  "static_opa": {
+   "p50": 0.357,
+   "p95": 0.782,
+   "p99": 1.284
+  },
+  "context_aware": {
+   "p50": 0.359,
+   "p95": 0.817,
+   "p99": 1.288
+  }
+ }
+}

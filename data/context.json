@@ -1,0 +1,3602 @@
+{
+ "deployment-0000": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0001": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0002": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0003": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0004": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0005": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0006": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0007": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "deployment-0008": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0009": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0010": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0011": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0012": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0013": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0014": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "database-0015": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0016": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0017": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0018": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0019": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0020": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0021": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0022": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0023": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0024": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0025": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0026": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0027": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0028": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0029": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0030": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0031": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0032": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0033": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0034": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0035": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0036": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0037": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0038": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0039": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0040": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0041": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0042": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0043": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0044": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0045": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0046": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0047": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0048": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "volume-0049": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0050": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0051": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0052": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0053": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0054": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "deployment-0055": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0056": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0057": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0058": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0059": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0060": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0061": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0062": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0063": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0064": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0065": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0066": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0067": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0068": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0069": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0070": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0071": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0072": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0073": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0074": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0075": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0076": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0077": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0078": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0079": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0080": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0081": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0082": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0083": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0084": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0085": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0086": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0087": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0088": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0089": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0090": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0091": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0092": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0093": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0094": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0095": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0096": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0097": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0098": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0099": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0100": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0101": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0102": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0103": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0104": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0105": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0106": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0107": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0108": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "bucket-0109": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0110": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0111": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0112": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0113": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0114": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0115": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0116": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0117": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0118": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0119": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0120": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0121": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0122": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0123": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0124": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0125": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0126": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0127": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "volume-0128": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0129": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0130": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0131": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0132": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0133": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0134": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0135": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0136": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0137": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0138": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0139": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0140": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0141": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0142": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0143": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0144": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0145": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0146": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0147": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "database-0148": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0149": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0150": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0151": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0152": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0153": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0154": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0155": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "volume-0156": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0157": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "database-0158": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0159": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0160": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0161": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "database-0162": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0163": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0164": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0165": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0166": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0167": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0168": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0169": {
+  "env": "dev",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0170": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0171": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0172": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0173": {
+  "env": "dev",
+  "data_sensitivity": "restricted",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "deployment-0174": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0175": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0176": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0177": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0178": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0179": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0180": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0181": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0182": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0183": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0184": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0185": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0186": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0187": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0188": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0189": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0190": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0191": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0192": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0193": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0194": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0195": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "database-0196": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0197": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "database-0198": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "deployment-0199": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0200": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0201": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0202": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0203": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0204": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0205": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "volume-0206": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0207": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0208": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0209": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0210": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0211": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0212": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0213": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0214": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0215": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0216": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0217": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0218": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0219": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0220": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0221": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0222": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0223": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0224": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0225": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0226": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0227": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0228": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0229": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0230": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0231": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0232": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0233": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0234": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0235": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0236": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0237": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0238": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0239": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0240": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0241": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0242": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0243": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0244": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0245": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0246": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0247": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "deployment-0248": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0249": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0250": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0251": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0252": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0253": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0254": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0255": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0256": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0257": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0258": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0259": {
+  "env": "dev",
+  "data_sensitivity": "restricted",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0260": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0261": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0262": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0263": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0264": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0265": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0266": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0267": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0268": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0269": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0270": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0271": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0272": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0273": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "database-0274": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0275": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0276": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0277": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0278": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0279": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0280": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0281": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0282": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0283": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0284": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0285": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0286": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0287": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0288": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0289": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0290": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0291": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0292": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0293": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0294": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0295": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0296": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0297": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "volume-0298": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0299": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0300": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0301": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0302": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0303": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0304": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0305": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0306": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0307": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0308": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0309": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0310": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0311": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0312": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0313": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0314": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0315": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0316": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0317": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0318": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "volume-0319": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0320": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0321": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0322": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "volume-0323": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0324": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0325": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0326": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0327": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0328": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0329": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0330": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0331": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0332": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0333": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0334": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0335": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0336": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0337": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0338": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0339": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0340": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0341": {
+  "env": "dev",
+  "data_sensitivity": "restricted",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0342": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0343": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "deployment-0344": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0345": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0346": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0347": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0348": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0349": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "volume-0350": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0351": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "database-0352": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0353": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "bucket-0354": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0355": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0356": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0357": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0358": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0359": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0360": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0361": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0362": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0363": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0364": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0365": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0366": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0367": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0368": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0369": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0370": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0371": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0372": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0373": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0374": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0375": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0376": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0377": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0378": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "database-0379": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0380": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0381": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0382": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0383": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "database-0384": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0385": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0386": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0387": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0388": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0389": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0390": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0391": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0392": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0393": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0394": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0395": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0396": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0397": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0398": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0399": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0400": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0401": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0402": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0403": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0404": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "deployment-0405": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0406": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0407": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0408": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0409": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0410": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0411": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0412": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0413": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0414": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0415": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0416": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0417": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0418": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0419": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0420": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0421": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0422": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0423": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0424": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0425": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "volume-0426": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0427": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0428": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0429": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0430": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0431": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0432": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0433": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0434": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0435": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0436": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0437": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0438": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0439": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0440": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0441": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0442": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0443": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0444": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0445": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0446": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0447": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0448": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "database-0449": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0450": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0451": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0452": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0453": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0454": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0455": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0456": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0457": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0458": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0459": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0460": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0461": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0462": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0463": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0464": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0465": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "deployment-0466": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0467": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0468": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0469": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0470": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0471": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0472": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0473": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0474": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0475": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0476": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0477": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "volume-0478": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0479": {
+  "env": "dev",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0480": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0481": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0482": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0483": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0484": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0485": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0486": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0487": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0488": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0489": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "bucket-0490": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0491": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0492": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0493": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0494": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0495": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0496": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0497": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "database-0498": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "bucket-0499": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0500": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0501": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0502": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "volume-0503": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0504": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0505": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0506": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0507": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0508": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0509": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0510": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0511": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0512": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0513": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0514": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0515": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0516": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "database-0517": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0518": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0519": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0520": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "deployment-0521": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0522": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0523": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0524": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0525": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0526": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0527": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0528": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0529": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0530": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0531": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0532": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0533": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0534": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0535": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0536": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0537": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0538": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0539": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0540": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0541": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0542": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0543": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0544": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0545": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0546": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "database-0547": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0548": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0549": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0550": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0551": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0552": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0553": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0554": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0555": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0556": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0557": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "bucket-0558": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0559": {
+  "env": "dev",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0560": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0561": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0562": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0563": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "deployment-0564": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "deployment-0565": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0566": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "database-0567": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0568": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0569": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": true
+ },
+ "deployment-0570": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0571": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0572": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0573": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0574": {
+  "env": "staging",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0575": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0576": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0577": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "volume-0578": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0579": {
+  "env": "staging",
+  "data_sensitivity": "restricted",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0580": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0581": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0582": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0583": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0584": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0585": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0586": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": true,
+  "compensating_control": false
+ },
+ "deployment-0587": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "bucket-0588": {
+  "env": "staging",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0589": {
+  "env": "prod",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0590": {
+  "env": "prod",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0591": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0592": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": true
+ },
+ "deployment-0593": {
+  "env": "prod",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "volume-0594": {
+  "env": "dev",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0595": {
+  "env": "dev",
+  "data_sensitivity": "public",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "database-0596": {
+  "env": "dev",
+  "data_sensitivity": "internal",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0597": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0598": {
+  "env": "staging",
+  "data_sensitivity": "confidential",
+  "internet_facing": false,
+  "compensating_control": false
+ },
+ "deployment-0599": {
+  "env": "prod",
+  "data_sensitivity": "restricted",
+  "internet_facing": true,
+  "compensating_control": true
+ }
+}
