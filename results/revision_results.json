@@ -1,0 +1,1828 @@
+{
+ "E7_recall": {
+  "static": {
+   "high_recall_approve_or_block": 26,
+   "high_recall_block_only": 26,
+   "medium_covered": 101,
+   "low_interrupted": 276,
+   "low_blocked": 276,
+   "hard_blocks": 403,
+   "approvals": 0,
+   "warnings": 0,
+   "attention_items": 403,
+   "High_total": 26,
+   "Medium_total": 101,
+   "Low_total": 276
+  },
+  "prod_only": {
+   "high_recall_approve_or_block": 22,
+   "high_recall_block_only": 22,
+   "medium_covered": 44,
+   "low_interrupted": 76,
+   "low_blocked": 76,
+   "hard_blocks": 142,
+   "approvals": 0,
+   "warnings": 0,
+   "attention_items": 142,
+   "High_total": 26,
+   "Medium_total": 101,
+   "Low_total": 276
+  },
+  "severity_tiered": {
+   "high_recall_approve_or_block": 26,
+   "high_recall_block_only": 26,
+   "medium_covered": 101,
+   "low_interrupted": 30,
+   "low_blocked": 30,
+   "hard_blocks": 123,
+   "approvals": 0,
+   "warnings": 101,
+   "attention_items": 224,
+   "High_total": 26,
+   "Medium_total": 101,
+   "Low_total": 276
+  },
+  "context_aware": {
+   "high_recall_approve_or_block": 26,
+   "high_recall_block_only": 24,
+   "medium_covered": 101,
+   "low_interrupted": 53,
+   "low_blocked": 2,
+   "hard_blocks": 34,
+   "approvals": 110,
+   "warnings": 141,
+   "attention_items": 285,
+   "High_total": 26,
+   "Medium_total": 101,
+   "Low_total": 276
+  },
+  "confusion": {
+   "severity_tiered": {
+    "High": {
+     "advisory": 0,
+     "warn": 0,
+     "approve": 0,
+     "block": 26,
+     "none": 0
+    },
+    "Medium": {
+     "advisory": 0,
+     "warn": 34,
+     "approve": 0,
+     "block": 67,
+     "none": 0
+    },
+    "Low": {
+     "advisory": 179,
+     "warn": 67,
+     "approve": 0,
+     "block": 30,
+     "none": 0
+    }
+   },
+   "context_aware": {
+    "High": {
+     "advisory": 0,
+     "warn": 0,
+     "approve": 2,
+     "block": 24,
+     "none": 0
+    },
+    "Medium": {
+     "advisory": 0,
+     "warn": 36,
+     "approve": 57,
+     "block": 8,
+     "none": 0
+    },
+    "Low": {
+     "advisory": 118,
+     "warn": 105,
+     "approve": 51,
+     "block": 2,
+     "none": 0
+    }
+   }
+  },
+  "expected_high_deployed": {
+   "static": {
+    "0.0": 0,
+    "0.05": 0,
+    "0.1": 0,
+    "0.25": 0,
+    "0.5": 0
+   },
+   "prod_only": {
+    "0.0": 4,
+    "0.05": 4,
+    "0.1": 4,
+    "0.25": 4,
+    "0.5": 4
+   },
+   "severity_tiered": {
+    "0.0": 0,
+    "0.05": 0,
+    "0.1": 0,
+    "0.25": 0,
+    "0.5": 0
+   },
+   "context_aware": {
+    "0.0": 0.0,
+    "0.05": 0.1,
+    "0.1": 0.2,
+    "0.25": 0.5,
+    "0.5": 1.0
+   }
+  },
+  "high_approved_detail": [
+   {
+    "resource": "database-0161",
+    "policy": "P1_encryption_at_rest",
+    "env": "dev",
+    "data_sensitivity": "confidential",
+    "internet_facing": true,
+    "compensating_control": false,
+    "R": 0.715
+   },
+   {
+    "resource": "database-0161",
+    "policy": "P2_public_exposure",
+    "env": "dev",
+    "data_sensitivity": "confidential",
+    "internet_facing": true,
+    "compensating_control": false,
+    "R": 0.715
+   }
+  ]
+ },
+ "E8_cost": {
+  "action_counts": {
+   "static": {
+    "advisory": 0,
+    "warn": 0,
+    "approve": 0,
+    "block": 403,
+    "none": 0
+   },
+   "prod_only": {
+    "advisory": 0,
+    "warn": 0,
+    "approve": 0,
+    "block": 142,
+    "none": 261
+   },
+   "severity_tiered": {
+    "advisory": 179,
+    "warn": 101,
+    "approve": 0,
+    "block": 123,
+    "none": 0
+   },
+   "context_aware": {
+    "advisory": 118,
+    "warn": 141,
+    "approve": 110,
+    "block": 34,
+    "none": 0
+   }
+  },
+  "break_even": "CA cheaper iff kb > (40 + 110*ka) / 89",
+  "grid_q0.1_LH100_LM10": [
+   {
+    "ka": 1,
+    "kb": 1,
+    "static": 403.0,
+    "static_op": 403,
+    "static_risk": 0.0,
+    "prod_only": 1112.0,
+    "prod_only_op": 142,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 564.0,
+    "severity_tiered_op": 224,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 722.0,
+    "context_aware_op": 285,
+    "context_aware_risk": 437.0,
+    "best": "static"
+   },
+   {
+    "ka": 1,
+    "kb": 2,
+    "static": 806.0,
+    "static_op": 806,
+    "static_risk": 0.0,
+    "prod_only": 1254.0,
+    "prod_only_op": 284,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 687.0,
+    "severity_tiered_op": 347,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 756.0,
+    "context_aware_op": 319,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 1,
+    "kb": 3,
+    "static": 1209.0,
+    "static_op": 1209,
+    "static_risk": 0.0,
+    "prod_only": 1396.0,
+    "prod_only_op": 426,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 810.0,
+    "severity_tiered_op": 470,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 790.0,
+    "context_aware_op": 353,
+    "context_aware_risk": 437.0,
+    "best": "context_aware"
+   },
+   {
+    "ka": 1,
+    "kb": 5,
+    "static": 2015.0,
+    "static_op": 2015,
+    "static_risk": 0.0,
+    "prod_only": 1680.0,
+    "prod_only_op": 710,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 1056.0,
+    "severity_tiered_op": 716,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 858.0,
+    "context_aware_op": 421,
+    "context_aware_risk": 437.0,
+    "best": "context_aware"
+   },
+   {
+    "ka": 1,
+    "kb": 10,
+    "static": 4030.0,
+    "static_op": 4030,
+    "static_risk": 0.0,
+    "prod_only": 2390.0,
+    "prod_only_op": 1420,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 1671.0,
+    "severity_tiered_op": 1331,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1028.0,
+    "context_aware_op": 591,
+    "context_aware_risk": 437.0,
+    "best": "context_aware"
+   },
+   {
+    "ka": 1,
+    "kb": 20,
+    "static": 8060.0,
+    "static_op": 8060,
+    "static_risk": 0.0,
+    "prod_only": 3810.0,
+    "prod_only_op": 2840,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 2901.0,
+    "severity_tiered_op": 2561,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1368.0,
+    "context_aware_op": 931,
+    "context_aware_risk": 437.0,
+    "best": "context_aware"
+   },
+   {
+    "ka": 2,
+    "kb": 1,
+    "static": 403.0,
+    "static_op": 403,
+    "static_risk": 0.0,
+    "prod_only": 1112.0,
+    "prod_only_op": 142,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 564.0,
+    "severity_tiered_op": 224,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 832.0,
+    "context_aware_op": 395,
+    "context_aware_risk": 437.0,
+    "best": "static"
+   },
+   {
+    "ka": 2,
+    "kb": 2,
+    "static": 806.0,
+    "static_op": 806,
+    "static_risk": 0.0,
+    "prod_only": 1254.0,
+    "prod_only_op": 284,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 687.0,
+    "severity_tiered_op": 347,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 866.0,
+    "context_aware_op": 429,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 2,
+    "kb": 3,
+    "static": 1209.0,
+    "static_op": 1209,
+    "static_risk": 0.0,
+    "prod_only": 1396.0,
+    "prod_only_op": 426,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 810.0,
+    "severity_tiered_op": 470,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 900.0,
+    "context_aware_op": 463,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 2,
+    "kb": 5,
+    "static": 2015.0,
+    "static_op": 2015,
+    "static_risk": 0.0,
+    "prod_only": 1680.0,
+    "prod_only_op": 710,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 1056.0,
+    "severity_tiered_op": 716,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 968.0,
+    "context_aware_op": 531,
+    "context_aware_risk": 437.0,
+    "best": "context_aware"
+   },
+   {
+    "ka": 2,
+    "kb": 10,
+    "static": 4030.0,
+    "static_op": 4030,
+    "static_risk": 0.0,
+    "prod_only": 2390.0,
+    "prod_only_op": 1420,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 1671.0,
+    "severity_tiered_op": 1331,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1138.0,
+    "context_aware_op": 701,
+    "context_aware_risk": 437.0,
+    "best": "context_aware"
+   },
+   {
+    "ka": 2,
+    "kb": 20,
+    "static": 8060.0,
+    "static_op": 8060,
+    "static_risk": 0.0,
+    "prod_only": 3810.0,
+    "prod_only_op": 2840,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 2901.0,
+    "severity_tiered_op": 2561,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1478.0,
+    "context_aware_op": 1041,
+    "context_aware_risk": 437.0,
+    "best": "context_aware"
+   },
+   {
+    "ka": 3,
+    "kb": 1,
+    "static": 403.0,
+    "static_op": 403,
+    "static_risk": 0.0,
+    "prod_only": 1112.0,
+    "prod_only_op": 142,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 564.0,
+    "severity_tiered_op": 224,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 942.0,
+    "context_aware_op": 505,
+    "context_aware_risk": 437.0,
+    "best": "static"
+   },
+   {
+    "ka": 3,
+    "kb": 2,
+    "static": 806.0,
+    "static_op": 806,
+    "static_risk": 0.0,
+    "prod_only": 1254.0,
+    "prod_only_op": 284,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 687.0,
+    "severity_tiered_op": 347,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 976.0,
+    "context_aware_op": 539,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 3,
+    "kb": 3,
+    "static": 1209.0,
+    "static_op": 1209,
+    "static_risk": 0.0,
+    "prod_only": 1396.0,
+    "prod_only_op": 426,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 810.0,
+    "severity_tiered_op": 470,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1010.0,
+    "context_aware_op": 573,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 3,
+    "kb": 5,
+    "static": 2015.0,
+    "static_op": 2015,
+    "static_risk": 0.0,
+    "prod_only": 1680.0,
+    "prod_only_op": 710,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 1056.0,
+    "severity_tiered_op": 716,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1078.0,
+    "context_aware_op": 641,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 3,
+    "kb": 10,
+    "static": 4030.0,
+    "static_op": 4030,
+    "static_risk": 0.0,
+    "prod_only": 2390.0,
+    "prod_only_op": 1420,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 1671.0,
+    "severity_tiered_op": 1331,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1248.0,
+    "context_aware_op": 811,
+    "context_aware_risk": 437.0,
+    "best": "context_aware"
+   },
+   {
+    "ka": 3,
+    "kb": 20,
+    "static": 8060.0,
+    "static_op": 8060,
+    "static_risk": 0.0,
+    "prod_only": 3810.0,
+    "prod_only_op": 2840,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 2901.0,
+    "severity_tiered_op": 2561,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1588.0,
+    "context_aware_op": 1151,
+    "context_aware_risk": 437.0,
+    "best": "context_aware"
+   },
+   {
+    "ka": 5,
+    "kb": 1,
+    "static": 403.0,
+    "static_op": 403,
+    "static_risk": 0.0,
+    "prod_only": 1112.0,
+    "prod_only_op": 142,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 564.0,
+    "severity_tiered_op": 224,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1162.0,
+    "context_aware_op": 725,
+    "context_aware_risk": 437.0,
+    "best": "static"
+   },
+   {
+    "ka": 5,
+    "kb": 2,
+    "static": 806.0,
+    "static_op": 806,
+    "static_risk": 0.0,
+    "prod_only": 1254.0,
+    "prod_only_op": 284,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 687.0,
+    "severity_tiered_op": 347,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1196.0,
+    "context_aware_op": 759,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 5,
+    "kb": 3,
+    "static": 1209.0,
+    "static_op": 1209,
+    "static_risk": 0.0,
+    "prod_only": 1396.0,
+    "prod_only_op": 426,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 810.0,
+    "severity_tiered_op": 470,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1230.0,
+    "context_aware_op": 793,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 5,
+    "kb": 5,
+    "static": 2015.0,
+    "static_op": 2015,
+    "static_risk": 0.0,
+    "prod_only": 1680.0,
+    "prod_only_op": 710,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 1056.0,
+    "severity_tiered_op": 716,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1298.0,
+    "context_aware_op": 861,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 5,
+    "kb": 10,
+    "static": 4030.0,
+    "static_op": 4030,
+    "static_risk": 0.0,
+    "prod_only": 2390.0,
+    "prod_only_op": 1420,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 1671.0,
+    "severity_tiered_op": 1331,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1468.0,
+    "context_aware_op": 1031,
+    "context_aware_risk": 437.0,
+    "best": "context_aware"
+   },
+   {
+    "ka": 5,
+    "kb": 20,
+    "static": 8060.0,
+    "static_op": 8060,
+    "static_risk": 0.0,
+    "prod_only": 3810.0,
+    "prod_only_op": 2840,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 2901.0,
+    "severity_tiered_op": 2561,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1808.0,
+    "context_aware_op": 1371,
+    "context_aware_risk": 437.0,
+    "best": "context_aware"
+   },
+   {
+    "ka": 10,
+    "kb": 1,
+    "static": 403.0,
+    "static_op": 403,
+    "static_risk": 0.0,
+    "prod_only": 1112.0,
+    "prod_only_op": 142,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 564.0,
+    "severity_tiered_op": 224,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1712.0,
+    "context_aware_op": 1275,
+    "context_aware_risk": 437.0,
+    "best": "static"
+   },
+   {
+    "ka": 10,
+    "kb": 2,
+    "static": 806.0,
+    "static_op": 806,
+    "static_risk": 0.0,
+    "prod_only": 1254.0,
+    "prod_only_op": 284,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 687.0,
+    "severity_tiered_op": 347,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1746.0,
+    "context_aware_op": 1309,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 10,
+    "kb": 3,
+    "static": 1209.0,
+    "static_op": 1209,
+    "static_risk": 0.0,
+    "prod_only": 1396.0,
+    "prod_only_op": 426,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 810.0,
+    "severity_tiered_op": 470,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1780.0,
+    "context_aware_op": 1343,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 10,
+    "kb": 5,
+    "static": 2015.0,
+    "static_op": 2015,
+    "static_risk": 0.0,
+    "prod_only": 1680.0,
+    "prod_only_op": 710,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 1056.0,
+    "severity_tiered_op": 716,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 1848.0,
+    "context_aware_op": 1411,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 10,
+    "kb": 10,
+    "static": 4030.0,
+    "static_op": 4030,
+    "static_risk": 0.0,
+    "prod_only": 2390.0,
+    "prod_only_op": 1420,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 1671.0,
+    "severity_tiered_op": 1331,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 2018.0,
+    "context_aware_op": 1581,
+    "context_aware_risk": 437.0,
+    "best": "severity_tiered"
+   },
+   {
+    "ka": 10,
+    "kb": 20,
+    "static": 8060.0,
+    "static_op": 8060,
+    "static_risk": 0.0,
+    "prod_only": 3810.0,
+    "prod_only_op": 2840,
+    "prod_only_risk": 970.0,
+    "severity_tiered": 2901.0,
+    "severity_tiered_op": 2561,
+    "severity_tiered_risk": 340.0,
+    "context_aware": 2358.0,
+    "context_aware_op": 1921,
+    "context_aware_risk": 437.0,
+    "best": "context_aware"
+   }
+  ],
+  "kb_breakeven_by_ka": {
+   "1": 1.69,
+   "2": 2.92,
+   "3": 4.16,
+   "5": 6.63,
+   "10": 12.81
+  },
+  "cost_optimal_tau_holdout": [
+   {
+    "ka": 2,
+    "kb": 5,
+    "tau_opt_on_A": [
+     0.45,
+     0.5,
+     0.8
+    ],
+    "test_B_cost": {
+     "ca_opt": 342.0,
+     "ca_default": 496.0,
+     "severity_tiered": 562.0
+    },
+    "test_B_metrics_opt": {
+     "high_recall_approve_or_block": 14,
+     "high_recall_block_only": 13,
+     "medium_covered": 48,
+     "low_interrupted": 29,
+     "low_blocked": 1,
+     "hard_blocks": 16,
+     "approvals": 75,
+     "warnings": 16,
+     "attention_items": 107,
+     "High_total": 14,
+     "Medium_total": 52,
+     "Low_total": 138
+    },
+    "test_B_metrics_default": {
+     "high_recall_approve_or_block": 14,
+     "high_recall_block_only": 14,
+     "medium_covered": 52,
+     "low_interrupted": 24,
+     "low_blocked": 1,
+     "hard_blocks": 18,
+     "approvals": 52,
+     "warnings": 73,
+     "attention_items": 143,
+     "High_total": 14,
+     "Medium_total": 52,
+     "Low_total": 138
+    }
+   },
+   {
+    "ka": 3,
+    "kb": 10,
+    "tau_opt_on_A": [
+     0.45,
+     0.5,
+     0.9
+    ],
+    "test_B_cost": {
+     "ca_opt": 499.0,
+     "ca_default": 638.0,
+     "severity_tiered": 862.0
+    },
+    "test_B_metrics_opt": {
+     "high_recall_approve_or_block": 14,
+     "high_recall_block_only": 6,
+     "medium_covered": 48,
+     "low_interrupted": 29,
+     "low_blocked": 0,
+     "hard_blocks": 6,
+     "approvals": 85,
+     "warnings": 16,
+     "attention_items": 107,
+     "High_total": 14,
+     "Medium_total": 52,
+     "Low_total": 138
+    },
+    "test_B_metrics_default": {
+     "high_recall_approve_or_block": 14,
+     "high_recall_block_only": 14,
+     "medium_covered": 52,
+     "low_interrupted": 24,
+     "low_blocked": 1,
+     "hard_blocks": 18,
+     "approvals": 52,
+     "warnings": 73,
+     "attention_items": 143,
+     "High_total": 14,
+     "Medium_total": 52,
+     "Low_total": 138
+    }
+   },
+   {
+    "ka": 5,
+    "kb": 20,
+    "tau_opt_on_A": [
+     0.55,
+     0.65,
+     0.95
+    ],
+    "test_B_cost": {
+     "ca_opt": 716.0,
+     "ca_default": 922.0,
+     "severity_tiered": 1462.0
+    },
+    "test_B_metrics_opt": {
+     "high_recall_approve_or_block": 14,
+     "high_recall_block_only": 1,
+     "medium_covered": 32,
+     "low_interrupted": 10,
+     "low_blocked": 0,
+     "hard_blocks": 1,
+     "approvals": 46,
+     "warnings": 23,
+     "attention_items": 70,
+     "High_total": 14,
+     "Medium_total": 52,
+     "Low_total": 138
+    },
+    "test_B_metrics_default": {
+     "high_recall_approve_or_block": 14,
+     "high_recall_block_only": 14,
+     "medium_covered": 52,
+     "low_interrupted": 24,
+     "low_blocked": 1,
+     "hard_blocks": 18,
+     "approvals": 52,
+     "warnings": 73,
+     "attention_items": 143,
+     "High_total": 14,
+     "Medium_total": 52,
+     "Low_total": 138
+    }
+   }
+  ]
+ },
+ "E9_forgery": {
+  "attacks": {
+   "env@10%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 20,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 30,
+     "low_interrupted": 47,
+     "attention_items": 279
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 44,
+     "low_interrupted": 61,
+     "attention_items": 297
+    }
+   },
+   "data@10%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 20,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 30,
+     "low_interrupted": 47,
+     "attention_items": 275
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 44,
+     "low_interrupted": 61,
+     "attention_items": 297
+    }
+   },
+   "exposure@10%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 51,
+     "attention_items": 282
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 44,
+     "low_interrupted": 63,
+     "attention_items": 297
+    }
+   },
+   "control@10%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 23,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 100,
+     "hard_blocks": 33,
+     "low_interrupted": 51,
+     "attention_items": 269
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 44,
+     "low_interrupted": 62,
+     "attention_items": 295
+    }
+   },
+   "all@10%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 22,
+     "high_recall_block_only": 20,
+     "high_downgraded_to_warn_or_less": 4,
+     "medium_covered": 95,
+     "hard_blocks": 30,
+     "low_interrupted": 47,
+     "attention_items": 254
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 44,
+     "low_interrupted": 58,
+     "attention_items": 295
+    }
+   },
+   "env@25%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 20,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 100,
+     "hard_blocks": 29,
+     "low_interrupted": 43,
+     "attention_items": 268
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 44,
+     "low_interrupted": 61,
+     "attention_items": 297
+    }
+   },
+   "data@25%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 20,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 100,
+     "hard_blocks": 29,
+     "low_interrupted": 42,
+     "attention_items": 266
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 44,
+     "low_interrupted": 61,
+     "attention_items": 297
+    }
+   },
+   "exposure@25%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 33,
+     "low_interrupted": 50,
+     "attention_items": 282
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 44,
+     "low_interrupted": 63,
+     "attention_items": 297
+    }
+   },
+   "control@25%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 23,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 99,
+     "hard_blocks": 33,
+     "low_interrupted": 47,
+     "attention_items": 256
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 100,
+     "hard_blocks": 44,
+     "low_interrupted": 62,
+     "attention_items": 294
+    }
+   },
+   "all@25%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 22,
+     "high_recall_block_only": 20,
+     "high_downgraded_to_warn_or_less": 4,
+     "medium_covered": 80,
+     "hard_blocks": 29,
+     "low_interrupted": 42,
+     "attention_items": 218
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 100,
+     "hard_blocks": 44,
+     "low_interrupted": 58,
+     "attention_items": 294
+    }
+   },
+   "env@100%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 2,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 95,
+     "hard_blocks": 2,
+     "low_interrupted": 6,
+     "attention_items": 230
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 23,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 100,
+     "hard_blocks": 40,
+     "low_interrupted": 56,
+     "attention_items": 288
+    }
+   },
+   "data@100%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 24,
+     "high_recall_block_only": 0,
+     "high_downgraded_to_warn_or_less": 2,
+     "medium_covered": 88,
+     "hard_blocks": 0,
+     "low_interrupted": 2,
+     "attention_items": 210
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 23,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 42,
+     "low_interrupted": 60,
+     "attention_items": 297
+    }
+   },
+   "exposure@100%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 22,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 98,
+     "hard_blocks": 22,
+     "low_interrupted": 44,
+     "attention_items": 262
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 44,
+     "low_interrupted": 62,
+     "attention_items": 297
+    }
+   },
+   "control@100%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 11,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 95,
+     "hard_blocks": 15,
+     "low_interrupted": 9,
+     "attention_items": 194
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 23,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 100,
+     "hard_blocks": 43,
+     "low_interrupted": 57,
+     "attention_items": 288
+    }
+   },
+   "all@100%": {
+    "no_mitigation": {
+     "high_recall_approve_or_block": 0,
+     "high_recall_block_only": 0,
+     "high_downgraded_to_warn_or_less": 26,
+     "medium_covered": 0,
+     "hard_blocks": 0,
+     "low_interrupted": 0,
+     "attention_items": 0
+    },
+    "mitigation_fresh_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 24,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 101,
+     "hard_blocks": 34,
+     "low_interrupted": 53,
+     "attention_items": 285
+    },
+    "mitigation_10pct_stale_inventory": {
+     "high_recall_approve_or_block": 26,
+     "high_recall_block_only": 21,
+     "high_downgraded_to_warn_or_less": 0,
+     "medium_covered": 99,
+     "hard_blocks": 37,
+     "low_interrupted": 48,
+     "attention_items": 277
+    }
+   }
+  },
+  "mitigation_no_attack_10pct_stale": {
+   "high_recall_approve_or_block": 26,
+   "high_recall_block_only": 24,
+   "medium_covered": 101,
+   "low_interrupted": 63,
+   "low_blocked": 5,
+   "hard_blocks": 44,
+   "approvals": 115,
+   "warnings": 138,
+   "attention_items": 297,
+   "High_total": 26,
+   "Medium_total": 101,
+   "Low_total": 276
+  },
+  "forged_incident_ticket": {
+   "steady": {
+    "high_recall_approve_or_block": 26,
+    "high_recall_block_only": 24,
+    "medium_covered": 101,
+    "low_interrupted": 53,
+    "low_blocked": 2,
+    "hard_blocks": 34,
+    "approvals": 110,
+    "warnings": 141,
+    "attention_items": 285,
+    "High_total": 26,
+    "Medium_total": 101,
+    "Low_total": 276
+   },
+   "forged_ticket": {
+    "high_recall_approve_or_block": 26,
+    "high_recall_block_only": 24,
+    "medium_covered": 101,
+    "low_interrupted": 53,
+    "low_blocked": 0,
+    "hard_blocks": 29,
+    "approvals": 115,
+    "warnings": 141,
+    "attention_items": 285,
+    "High_total": 26,
+    "Medium_total": 101,
+    "Low_total": 276
+   },
+   "security_critical_blocks_steady": 29,
+   "security_critical_blocks_forged": 29
+  },
+  "decision_service_failure_fallback_severity_tiered": {
+   "high_recall_approve_or_block": 26,
+   "high_recall_block_only": 26,
+   "medium_covered": 101,
+   "low_interrupted": 30,
+   "low_blocked": 30,
+   "hard_blocks": 123,
+   "approvals": 0,
+   "warnings": 101,
+   "attention_items": 224,
+   "High_total": 26,
+   "Medium_total": 101,
+   "Low_total": 276
+  }
+ },
+ "E10_sensitivity": {
+  "narrow_pm30pct": {
+   "decision_flip_rate": {
+    "min": 0.0024813895781637717,
+    "p5": 0.03970223325062035,
+    "median": 0.11910669975186104,
+    "p95": 0.18858560794044665,
+    "max": 0.2531017369727047
+   },
+   "two_level_flip_rate": {
+    "min": 0.0,
+    "p5": 0.0,
+    "median": 0.0,
+    "p95": 0.0,
+    "max": 0.0
+   },
+   "high_recall_approve_or_block": {
+    "min": 26,
+    "p5": 26,
+    "median": 26.0,
+    "p95": 26,
+    "max": 26
+   },
+   "high_recall_block_only": {
+    "min": 16,
+    "p5": 17,
+    "median": 24.0,
+    "p95": 26,
+    "max": 26
+   },
+   "runs_high_recall_below_26": 0,
+   "low_interrupted": {
+    "min": 11,
+    "p5": 24,
+    "median": 50.5,
+    "p95": 61,
+    "max": 73
+   },
+   "hard_blocks": {
+    "min": 19,
+    "p5": 26,
+    "median": 38.0,
+    "p95": 51,
+    "max": 67
+   },
+   "attention_items": {
+    "min": 242,
+    "p5": 252,
+    "median": 280.0,
+    "p95": 322,
+    "max": 326
+   }
+  },
+  "wide_simplex": {
+   "decision_flip_rate": {
+    "min": 0.14392059553349876,
+    "p5": 0.25806451612903225,
+    "median": 0.4491315136476427,
+    "p95": 0.630272952853598,
+    "max": 0.826302729528536
+   },
+   "two_level_flip_rate": {
+    "min": 0.0,
+    "p5": 0.0,
+    "median": 0.019851116625310174,
+    "p95": 0.19602977667493796,
+    "max": 0.369727047146402
+   },
+   "high_recall_approve_or_block": {
+    "min": 13,
+    "p5": 15,
+    "median": 26.0,
+    "p95": 26,
+    "max": 26
+   },
+   "high_recall_block_only": {
+    "min": 2,
+    "p5": 11,
+    "median": 22.0,
+    "p95": 26,
+    "max": 26
+   },
+   "runs_high_recall_below_26": 292,
+   "low_interrupted": {
+    "min": 0,
+    "p5": 9,
+    "median": 54.0,
+    "p95": 137,
+    "max": 218
+   },
+   "hard_blocks": {
+    "min": 4,
+    "p5": 15,
+    "median": 54.0,
+    "p95": 150,
+    "max": 249
+   },
+   "attention_items": {
+    "min": 106,
+    "p5": 169,
+    "median": 264.0,
+    "p95": 358,
+    "max": 387
+   },
+   "admissible_runs": 708,
+   "recall_failures_among_admissible": 0,
+   "recall_failures_among_inadmissible": 292
+  },
+  "admissibility": {
+   "high_risk_context_space": 24,
+   "R_min_default": 0.715,
+   "tau_approve": 0.55,
+   "tau_block": 0.75,
+   "argmin_context": {
+    "env": "dev",
+    "data_sensitivity": "confidential",
+    "internet_facing": true,
+    "compensating_control": false,
+    "policy": "P1_encryption_at_rest"
+   },
+   "guarantee_approve_or_block": true,
+   "guarantee_block": false
+  }
+ },
+ "E11_multiplicative": {
+  "additive": {
+   "high_recall_approve_or_block": 26,
+   "high_recall_block_only": 24,
+   "medium_covered": 101,
+   "low_interrupted": 53,
+   "low_blocked": 2,
+   "hard_blocks": 34,
+   "approvals": 110,
+   "warnings": 141,
+   "attention_items": 285,
+   "High_total": 26,
+   "Medium_total": 101,
+   "Low_total": 276,
+   "low_hygiene_interrupted": 43
+  },
+  "geometric_mean": {
+   "high_recall_approve_or_block": 26,
+   "high_recall_block_only": 24,
+   "medium_covered": 101,
+   "low_interrupted": 44,
+   "low_blocked": 2,
+   "hard_blocks": 35,
+   "approvals": 115,
+   "warnings": 113,
+   "attention_items": 263,
+   "High_total": 26,
+   "Medium_total": 101,
+   "Low_total": 276,
+   "low_hygiene_interrupted": 42
+  },
+  "confusion_geometric": {
+   "High": {
+    "advisory": 0,
+    "warn": 0,
+    "approve": 2,
+    "block": 24,
+    "none": 0
+   },
+   "Medium": {
+    "advisory": 0,
+    "warn": 21,
+    "approve": 71,
+    "block": 9,
+    "none": 0
+   },
+   "Low": {
+    "advisory": 140,
+    "warn": 92,
+    "approve": 42,
+    "block": 2,
+    "none": 0
+   }
+  }
+ },
+ "E12_replication_20_seeds": {
+  "findings": {
+   "mean": 430,
+   "min": 401,
+   "max": 470
+  },
+  "high_recall_full_in_all_seeds": {
+   "static": true,
+   "prod_only": false,
+   "severity_tiered": true,
+   "context_aware": true,
+   "context_aware_geo": true
+  },
+  "static": {
+   "High_total": {
+    "mean": 28.6,
+    "sd": 7.1,
+    "min": 19,
+    "max": 42
+   },
+   "high_recall_approve_or_block": {
+    "mean": 28.6,
+    "sd": 7.1,
+    "min": 19,
+    "max": 42
+   },
+   "high_recall_block_only": {
+    "mean": 28.6,
+    "sd": 7.1,
+    "min": 19,
+    "max": 42
+   },
+   "Medium_total": {
+    "mean": 103.8,
+    "sd": 8.3,
+    "min": 88,
+    "max": 118
+   },
+   "medium_covered": {
+    "mean": 103.8,
+    "sd": 8.3,
+    "min": 88,
+    "max": 118
+   },
+   "low_interrupted": {
+    "mean": 297.6,
+    "sd": 15.5,
+    "min": 269,
+    "max": 326
+   },
+   "low_blocked": {
+    "mean": 297.6,
+    "sd": 15.5,
+    "min": 269,
+    "max": 326
+   },
+   "hard_blocks": {
+    "mean": 430,
+    "sd": 20.2,
+    "min": 401,
+    "max": 470
+   },
+   "attention_items": {
+    "mean": 430,
+    "sd": 20.2,
+    "min": 401,
+    "max": 470
+   }
+  },
+  "prod_only": {
+   "High_total": {
+    "mean": 28.6,
+    "sd": 7.1,
+    "min": 19,
+    "max": 42
+   },
+   "high_recall_approve_or_block": {
+    "mean": 20.9,
+    "sd": 6.4,
+    "min": 13,
+    "max": 34
+   },
+   "high_recall_block_only": {
+    "mean": 20.9,
+    "sd": 6.4,
+    "min": 13,
+    "max": 34
+   },
+   "Medium_total": {
+    "mean": 103.8,
+    "sd": 8.3,
+    "min": 88,
+    "max": 118
+   },
+   "medium_covered": {
+    "mean": 44.3,
+    "sd": 6.9,
+    "min": 33,
+    "max": 58
+   },
+   "low_interrupted": {
+    "mean": 79.9,
+    "sd": 10.0,
+    "min": 55,
+    "max": 95
+   },
+   "low_blocked": {
+    "mean": 79.9,
+    "sd": 10.0,
+    "min": 55,
+    "max": 95
+   },
+   "hard_blocks": {
+    "mean": 145.2,
+    "sd": 16.3,
+    "min": 121,
+    "max": 178
+   },
+   "attention_items": {
+    "mean": 145.2,
+    "sd": 16.3,
+    "min": 121,
+    "max": 178
+   }
+  },
+  "severity_tiered": {
+   "High_total": {
+    "mean": 28.6,
+    "sd": 7.1,
+    "min": 19,
+    "max": 42
+   },
+   "high_recall_approve_or_block": {
+    "mean": 28.6,
+    "sd": 7.1,
+    "min": 19,
+    "max": 42
+   },
+   "high_recall_block_only": {
+    "mean": 28.6,
+    "sd": 7.1,
+    "min": 19,
+    "max": 42
+   },
+   "Medium_total": {
+    "mean": 103.8,
+    "sd": 8.3,
+    "min": 88,
+    "max": 118
+   },
+   "medium_covered": {
+    "mean": 103.8,
+    "sd": 8.3,
+    "min": 88,
+    "max": 118
+   },
+   "low_interrupted": {
+    "mean": 35.0,
+    "sd": 4.7,
+    "min": 24,
+    "max": 43
+   },
+   "low_blocked": {
+    "mean": 35.0,
+    "sd": 4.7,
+    "min": 24,
+    "max": 43
+   },
+   "hard_blocks": {
+    "mean": 138.8,
+    "sd": 9.8,
+    "min": 123,
+    "max": 163
+   },
+   "attention_items": {
+    "mean": 244.7,
+    "sd": 15.3,
+    "min": 225,
+    "max": 285
+   }
+  },
+  "context_aware": {
+   "High_total": {
+    "mean": 28.6,
+    "sd": 7.1,
+    "min": 19,
+    "max": 42
+   },
+   "high_recall_approve_or_block": {
+    "mean": 28.6,
+    "sd": 7.1,
+    "min": 19,
+    "max": 42
+   },
+   "high_recall_block_only": {
+    "mean": 25.8,
+    "sd": 7.6,
+    "min": 15,
+    "max": 41
+   },
+   "Medium_total": {
+    "mean": 103.8,
+    "sd": 8.3,
+    "min": 88,
+    "max": 118
+   },
+   "medium_covered": {
+    "mean": 103.8,
+    "sd": 8.3,
+    "min": 88,
+    "max": 118
+   },
+   "low_interrupted": {
+    "mean": 51.6,
+    "sd": 7.1,
+    "min": 41,
+    "max": 63
+   },
+   "low_blocked": {
+    "mean": 1.9,
+    "sd": 1.7,
+    "min": 0,
+    "max": 5
+   },
+   "hard_blocks": {
+    "mean": 37.2,
+    "sd": 10.2,
+    "min": 19,
+    "max": 61
+   },
+   "attention_items": {
+    "mean": 297.2,
+    "sd": 13.4,
+    "min": 278,
+    "max": 326
+   }
+  },
+  "context_aware_geo": {
+   "High_total": {
+    "mean": 28.6,
+    "sd": 7.1,
+    "min": 19,
+    "max": 42
+   },
+   "high_recall_approve_or_block": {
+    "mean": 28.6,
+    "sd": 7.1,
+    "min": 19,
+    "max": 42
+   },
+   "high_recall_block_only": {
+    "mean": 24.9,
+    "sd": 7.6,
+    "min": 15,
+    "max": 40
+   },
+   "Medium_total": {
+    "mean": 103.8,
+    "sd": 8.3,
+    "min": 88,
+    "max": 118
+   },
+   "medium_covered": {
+    "mean": 103.8,
+    "sd": 8.3,
+    "min": 88,
+    "max": 118
+   },
+   "low_interrupted": {
+    "mean": 38.1,
+    "sd": 6.0,
+    "min": 31,
+    "max": 50
+   },
+   "low_blocked": {
+    "mean": 1.9,
+    "sd": 1.7,
+    "min": 0,
+    "max": 5
+   },
+   "hard_blocks": {
+    "mean": 38.2,
+    "sd": 10.1,
+    "min": 20,
+    "max": 60
+   },
+   "attention_items": {
+    "mean": 273.8,
+    "sd": 16.4,
+    "min": 247,
+    "max": 316
+   }
+  }
+ },
+ "E13_latency_ms": {
+  "opa_only": {
+   "p50": 0.512,
+   "p95": 0.9,
+   "p99": 1.957
+  },
+  "cached_context": {
+   "p50": 0.498,
+   "p95": 0.869,
+   "p99": 1.911
+  },
+  "remote_context_miss": {
+   "p50": 1.295,
+   "p95": 1.984,
+   "p99": 3.276
+  },
+  "note": "context service is a separate HTTP server on localhost; cross-host fetches add network RTT"
+ }
+}
